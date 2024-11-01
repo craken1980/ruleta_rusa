@@ -40,4 +40,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    // RxJava
+    implementation("io.reactivex.rxjava2:rxjava:2.2.21") // Versión de RxJava
+    implementation("io.reactivex.rxjava2:rxandroid:2.1.1") // Versión de RxAndroid
+
 }
